@@ -1,0 +1,41 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+
+  }
+
+  #menu{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .header{
+    text-align: center;
+  }
+  .logo{
+    height: 50px;
+    width: 50px;
+    transform: translate(120px,0px);
+  }
+  .white-text{
+    text-align: center;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  h1{
+  	text-align: center;
+  }
+  
+  p{
+  	text-align: justify;
+  }
+  video{
+  top: 5em;
+  right: 1em;
+  position: fixed;
+}
